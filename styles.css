@@ -195,6 +195,8 @@ a:hover {
     transform: scale(1.01);
 }
 
+
+
 /*################################## NEWSLETTER ##################################*/
 
 form {
@@ -317,3 +319,44 @@ button {
     max-width: 100%;
     max-height: 100%;
 }
+
+
+/*################################## ABOUT ##################################*/
+
+.about-us {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.creation-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+
+.about-us-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.image-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-effect:hover {
+    transform: scale(1.04);
+  }
+  
