@@ -2,6 +2,7 @@
 
 body {
     margin: 0%;
+    font-family:'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .preheader {
@@ -9,7 +10,6 @@ body {
     height: 2.5rem;
     background-color: #374197;
     color: white;
-    font-family:'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -354,9 +354,10 @@ button {
 
 .image-effect {
     transition: transform 0.3s ease-in-out;
+    filter: grayscale(100%);
   }
   
   .image-effect:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
+    filter: grayscale(0%);
   }
-  
