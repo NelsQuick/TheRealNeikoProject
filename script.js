@@ -13,8 +13,8 @@ function updateWatchPreview(elementType, imagePath) {
   
     // Appliquer le positionnement des éléments
     bracelet.style.zIndex = 1;
-    boitier.style.zIndex = 2;
-    cadran.style.zIndex = 3;
+    cadran.style.zIndex = 2;
+    boitier.style.zIndex = 3;
     aiguilles.style.zIndex = 4;
   }
   
