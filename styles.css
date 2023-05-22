@@ -72,6 +72,8 @@ nav {
     justify-content: space-around;
     margin: 0 15rem 0 15rem;
     position: sticky;
+    z-index: 1;
+
 }
 
 a {
@@ -582,4 +584,6 @@ button {
     left: 0;
     right: 0;
   }
+
+  
   
