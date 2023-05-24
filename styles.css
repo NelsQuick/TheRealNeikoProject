@@ -14,6 +14,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+
+  .preheader {
+    height: 3rem;
+  }
+  
+  .preheader span{
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .preheader {
+    height: 4rem;
+  }
+  
+  .preheader span{
+    margin: 0 10%;
+  }
 }
 
 /*################################## HEADER ##################################*/
@@ -70,10 +93,9 @@ nav {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    margin: 0 15rem 0 15rem;
+    margin: 0 20%;
     position: sticky;
     z-index: 1;
-
 }
 
 a {
@@ -118,6 +140,61 @@ a:hover {
     background-color: #f1f1f1;
     color: #374197;
 }
+
+@media screen and (max-width: 1200px) {
+  /* Ajoute tes styles spécifiques pour les écrans de 1200px de large ou moins ici */
+  header {
+    /* Exemple de style pour le header à 1200px de large ou moins */
+    width: 90%;
+  }
+
+  nav {
+    margin: 0 15%;
+  }
+
+  /* Autres styles spécifiques pour les écrans de 1200px de large ou moins */
+  .logoarealeft {
+    width: 30%;
+  }
+
+  .logoareamiddle {
+    width: 40%;
+  }
+
+  .logoarearight {
+    width: 30%;
+  }
+
+  /* ... Autres modifications nécessaires ... */
+}
+
+@media screen and (max-width: 900px) {
+  /* Ajoute tes styles spécifiques pour les écrans de 1200px de large ou moins ici */
+  header {
+    /* Exemple de style pour le header à 1200px de large ou moins */
+    width: 80%;
+  }
+
+  nav {
+    margin: 0 0%;
+  }
+
+  /* Autres styles spécifiques pour les écrans de 1200px de large ou moins */
+  .logoarealeft {
+    width: 30%;
+  }
+
+  .logoareamiddle {
+    width: 40%;
+  }
+
+  .logoarearight {
+    width: 30%;
+  }
+
+  /* ... Autres modifications nécessaires ... */
+}
+
 
 /*################################## MAIN ##################################*/
 
@@ -226,9 +303,11 @@ footer {
     background-color: #374197;
     color: white;
     height: 5rem;
+    text-align: center;
 }
 
 footer .mentions {
+    margin: 0 10%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -244,6 +323,28 @@ footer a:hover {
     color: white;
     text-decoration: underline;
     font-weight: bold;
+}
+
+@media screen and (max-width: 610px) {
+  footer {
+    height: 8rem;
+  }
+
+  footer .mentions {
+    margin: 0 10%;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+  footer {
+    height: 10rem;
+  }
+
+  footer .mentions {
+    margin: 0 10%;
+  }
+
 }
 
 /*################################## CONTACT ##################################*/
