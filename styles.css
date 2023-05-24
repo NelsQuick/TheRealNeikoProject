@@ -247,6 +247,25 @@ a:hover {
     transform: scale(1.01);
 }
 
+
+@media screen and (max-width: 900px) {
+
+  .blockcategory {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blockcategory img {
+    margin: 0 5%;
+  }
+}
+@media screen and (max-width: 1200px) {
+
+  .blockcategory img {
+    width: 80%;
+  }
+}
+
 /*################################## BLOCKSELECTION ##################################*/
 
 .blockselection {
@@ -270,6 +289,10 @@ a:hover {
     margin: auto;
 }
 
+.pic-selection img {
+  width: 90%;
+}
+
 .select{
     display: flex;
     flex-direction: column;
@@ -287,7 +310,19 @@ a:hover {
     transform: scale(1.01);
 }
 
+@media screen and (max-width: 900px) {
 
+  .pic-selection {
+    display: flex;
+    flex-direction: column;
+  }
+}
+  @media screen and (max-width: 1200px) {
+
+    .pic-selection img {
+      width: 80%;
+    }
+  }
 
 /*################################## NEWSLETTER ##################################*/
 
@@ -362,10 +397,6 @@ footer a:hover {
 
 /*################################## CONTACT ##################################*/
 
-.bannercontact {
-    margin-bottom: 3rem;
-    width: 100%;
-}
 .contact {
     width: 50%;
     margin: auto;
@@ -449,9 +480,6 @@ button {
     max-width: 100%;
     max-height: 100%;
 }
-
-
-
 
 /*################################## ABOUT ##################################*/
 
