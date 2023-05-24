@@ -87,6 +87,13 @@ header {
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 500px) {
+
+  .logoareamiddle img {
+    height: 6rem;
+}
+}
+
 /*################################## NAV ##################################*/
 
 nav {
@@ -195,6 +202,12 @@ a:hover {
   /* ... Autres modifications nécessaires ... */
 }
 
+@media screen and (max-width: 500px) {
+  
+  header {
+    width: 100%;
+}
+}
 
 /*################################## MAIN ##################################*/
 

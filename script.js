@@ -144,3 +144,4 @@ function updateWatchPreview(elementType, imagePath) {
       });
     });
   });
+  
